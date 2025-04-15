@@ -61,7 +61,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+                shopping: {
+                    primary: '#4F46E5', // Indigo-600
+                    secondary: '#10B981', // Emerald-500
+                    accent: '#F59E0B', // Amber-500
+                    light: '#F3F4F6', // Gray-100
+                    dark: '#1F2937', // Gray-800
+                    savings: '#10B981', // Green for price savings
+                    surface: '#FFFFFF',
+                    error: '#EF4444' // Red-500
+                }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
